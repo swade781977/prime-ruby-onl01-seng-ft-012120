@@ -1,8 +1,9 @@
 require 'pry'
 def prime?(num)
-  if num <= 2
+  if num <= 1
       result = false
-  end
+  elsif num == 2
+    result = true
   array=*(2...num)
   
   array.each do |a|
