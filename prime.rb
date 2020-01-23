@@ -4,6 +4,7 @@ def prime?(num)
       result = false
   elsif num == 2
     result = true
+  end
   array=*(2...num)
   
   array.each do |a|
