@@ -3,7 +3,7 @@ def prime?(num)
   if num <= 1
       result = false
   end
-  array=*(2...num)
+  array=*(1...num)
   binding.pry
   array.each do |a|
     if num % a == 0
