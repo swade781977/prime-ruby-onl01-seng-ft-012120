@@ -1,10 +1,10 @@
 require 'pry'
 def prime?(num)
-  if num <= 1
+  if num <= 2
       result = false
   end
-  array=*(1...num)
-  binding.pry
+  array=*(2...num)
+  
   array.each do |a|
     if num % a == 0
       result = false
