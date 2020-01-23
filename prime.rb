@@ -1,6 +1,6 @@
 require 'pry'
 def prime?(num)
-  result true
+  result = true
   if num <= 1
     return false
   end
