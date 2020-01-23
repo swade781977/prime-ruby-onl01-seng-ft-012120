@@ -10,11 +10,9 @@ def prime?(num)
   array.each do |a|
     if num % a == 0
       return false
-    else
-      result = true
     end
   end
-   return result
+   true
 end
   
 prime?(2)
