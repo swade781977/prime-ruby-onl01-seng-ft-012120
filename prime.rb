@@ -1,16 +1,15 @@
-require 'pry'
+
 def prime?(num)
   array=*(2...num)
   array.each do |a|
     if num <= 1
-      b = false
-    binding.pry
+      result = false
     elsif num % a == 0
-      b = false
+      result = false
     else
-      b = true
+      result = true
     end
-    return b
+    return result
   end
 end
   
