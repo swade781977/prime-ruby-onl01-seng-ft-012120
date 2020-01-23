@@ -9,7 +9,7 @@ def prime?(num)
   #[2,3]
   array.each do |a|
     if num % a == 0
-      result = false
+      return false
     else
       result = true
     end
