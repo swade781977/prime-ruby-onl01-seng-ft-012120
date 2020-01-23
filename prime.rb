@@ -2,7 +2,7 @@ require 'pry'
 def prime?(num)
   result true
   if num <= 1
-      result = false
+    return false
   end
   array=*(2...num)
 
