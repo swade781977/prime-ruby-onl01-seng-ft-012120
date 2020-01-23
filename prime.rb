@@ -1,5 +1,6 @@
 require 'pry'
 def prime?(num)
+  result true
   if num <= 1
       result = false
   elsif num == 2
