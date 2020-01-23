@@ -15,3 +15,4 @@ def prime?(num)
    return result
 end
   
+prime?(2)
