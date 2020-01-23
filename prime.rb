@@ -6,7 +6,7 @@ def prime?(num)
     result = true
   end
   array=*(2...num)
-  
+  #[2,3]
   array.each do |a|
     if num % a == 0
       result = false
